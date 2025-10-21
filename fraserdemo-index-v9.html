@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fraser Coast Regional Council — Public Info KB (Consolidated v6)</title>
+  <style>
+    body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 28px; line-height: 1.45; }
+    h1 { font-size: 28px; margin: 0 0 6px; }
+    h2 { font-size: 22px; margin-top: 26px; }
+    p.note { background:#f6f8fa; padding:10px 12px; border-radius:8px; border:1px solid #eaecef; }
+    table { border-collapse: collapse; width: 100%; margin: 10px 0 24px; }
+    th, td { border: 1px solid #d0d7de; padding: 8px; vertical-align: top; }
+    th { background: #f3f4f6; text-align: left; }
+    small.muted { color:#6b7280; }
+    .provenance { font-size: 12px; color:#6b7280; }
+    .tight td { padding:6px; }
+    .nowrap { white-space: nowrap; }
+  </style>
+</head>
+<body>
+  <h1>Fraser Coast Regional Council — Public Info Knowledge Base (Consolidated)</h1>
+  <p class="note"><strong>Design:</strong> One‑dimensional tables for crawler ingestion. <strong>Last built:</strong> 21 Oct 2025 AEST.</p>
+
+  <h2 id="contacts">Contacts & Service</h2>
+  <table class="tight">
+    <thead><tr><th>Topic</th><th>Details</th><th>Source (text)</th></tr></thead>
+    <tbody>
+      <tr><td>General enquiries</td><td>1300 79 49 29 · enquiry@frasercoast.qld.gov.au · Offices: 77 Tavistock St, Hervey Bay; 211–213 Adelaide St, Maryborough</td><td>frasercoast.qld.gov.au</td></tr>
+      <tr><td>Opening hours (customer service)</td><td>Mon–Fri 8:15am–4:30pm</td><td>frasercoast.qld.gov.au</td></tr>
+      <tr><td>Request a Service</td><td>Online portal for waste, roads, animals, parks, etc.</td><td>frasercoast.qld.gov.au/request-service</td></tr>
+      <tr><td>Complaints</td><td>Administrative Action Complaint form; general complaints accepted</td><td>frasercoast.qld.gov.au/compliments-complaints</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="councillors">Mayor & Councillors (2024–2028 term)</h2>
+  <table class="tight">
+    <thead><tr><th>Division</th><th>Name</th><th>Role</th><th class="nowrap">Phone</th><th>Email</th><th>Source (text)</th></tr></thead>
+    <tbody>
+<tr><td>-</td><td>George Seymour</td><td>Mayor</td><td>1300 79 49 29</td><td>mayor@frasercoast.qld.gov.au</td><td>frasercoast.qld.gov.au/mayor-and-councillors</td></tr>
+<tr><td>1</td><td>Michelle Byrne</td><td>Councillor</td><td>0497 947 249</td><td>Michelle.Byrne@frasercoast.qld.gov.au</td><td>frasercoast.qld.gov.au/cr-division-1</td></tr>
+<tr><td>2</td><td>Phil Truscott</td><td>Councillor</td><td>07 4190 5744</td><td>phil.truscott@frasercoast.qld.gov.au</td><td>frasercoast.qld.gov.au/cr-division-2</td></tr>
+<tr><td>3</td><td>Paul Truscott</td><td>Councillor</td><td>0429 599 709</td><td>paul.truscott@frasercoast.qld.gov.au</td><td>frasercoast.qld.gov.au/cr-division-3</td></tr>
+<tr><td>4</td><td>Daniel Sanderson</td><td>Councillor</td><td>0448 073 355</td><td>daniel.sanderson@frasercoast.qld.gov.au</td><td>frasercoast.qld.gov.au/cr-division-4</td></tr>
+<tr><td>5</td><td>Michelle Govers</td><td>Councillor</td><td>0474 974 218</td><td>Michelle.Govers@frasercoast.qld.gov.au</td><td>frasercoast.qld.gov.au/cr-division-5</td></tr>
+<tr><td>6</td><td>Lachlan Cosgrove</td><td>Councillor</td><td>0448 751 520</td><td>Lachlan.Cosgrove@frasercoast.qld.gov.au</td><td>frasercoast.qld.gov.au/cr-division-6</td></tr>
+<tr><td>7</td><td>John Weiland</td><td>Councillor</td><td>0455 966 436</td><td>John.Weiland@frasercoast.qld.gov.au</td><td>frasercoast.qld.gov.au/cr-division-7</td></tr>
+<tr><td>8</td><td>Denis Chapman</td><td>Councillor</td><td>0429 492 500</td><td>denis.chapman@frasercoast.qld.gov.au</td><td>frasercoast.qld.gov.au/cr-division-8</td></tr>
+<tr><td>9</td><td>Sara Diana Faraj</td><td>Deputy Mayor, Councillor</td><td>0467 428 602</td><td>Sara.Faraj@frasercoast.qld.gov.au</td><td>frasercoast.qld.gov.au/cr-division-9</td></tr>
+<tr><td>10</td><td>Zane O&#x27;Keefe</td><td>Councillor</td><td>1300 79 49 29</td><td>zane.okeefe@frasercoast.qld.gov.au</td><td>frasercoast.qld.gov.au/cr-division-10</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="suburbs">Suburb → Division → Councillor → Waste Service</h2>
+  <p class="note">‘Bin collection day’ is address-specific (suburbs can have multiple days). Column included below to store values if known; default is “Address-level (varies)”.</p>
+  <table>
+    <thead><tr><th>Suburb / Locality</th><th>Division(s)</th><th>Councillor(s)</th><th>Bin Day</th><th>Recycling</th><th>Source (text)</th></tr></thead>
+    <tbody><tr><td>Burrum Heads</td><td>1</td><td>Michelle Byrne</td><td>Tuesday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-1</td></tr>
+<tr><td>Howard</td><td>1</td><td>Michelle Byrne</td><td>Tuesday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-1</td></tr>
+<tr><td>Torbanlea</td><td>1</td><td>Michelle Byrne</td><td>Tuesday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-1</td></tr>
+<tr><td>Duckinwilla</td><td>1</td><td>Michelle Byrne</td><td>Wednesday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-1</td></tr>
+<tr><td>Oakhurst</td><td>1</td><td>Michelle Byrne</td><td>Wednesday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-1</td></tr>
+<tr><td>Yengarie</td><td>1</td><td>Michelle Byrne</td><td>Wednesday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-1</td></tr>
+<tr><td>Yerra</td><td>1</td><td>Michelle Byrne</td><td>Wednesday (varies)</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-1</td></tr>
+<tr><td>Brooweena</td><td>1</td><td>Michelle Byrne</td><td>Friday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-1</td></tr>
+<tr><td>Woocoo</td><td>1</td><td>Michelle Byrne</td><td>Friday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-1</td></tr>
+<tr><td>Boompa</td><td>1</td><td>Michelle Byrne</td><td>Friday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-1</td></tr>
+<tr><td>Teebar</td><td>1</td><td>Michelle Byrne</td><td>Friday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-1</td></tr>
+<tr><td>Tinana</td><td>2</td><td>Phil Truscott</td><td>Thursday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-2</td></tr>
+<tr><td>Owanyilla</td><td>2</td><td>Phil Truscott</td><td>Thursday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-2</td></tr>
+<tr><td>Tiaro</td><td>2</td><td>Phil Truscott</td><td>Friday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-2</td></tr>
+<tr><td>Bauple</td><td>2</td><td>Phil Truscott</td><td>Friday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-2</td></tr>
+<tr><td>Gundiah</td><td>2</td><td>Phil Truscott</td><td>Friday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-2</td></tr>
+<tr><td>Glenwood</td><td>2</td><td>Phil Truscott</td><td>Friday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-2</td></tr>
+<tr><td>Maaroom</td><td>4</td><td>Daniel Sanderson</td><td>Thursday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-4</td></tr>
+<tr><td>Boonooroo</td><td>4</td><td>Daniel Sanderson</td><td>Thursday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-4</td></tr>
+<tr><td>Tuan</td><td>4</td><td>Daniel Sanderson</td><td>Wednesday (varies)</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-4</td></tr>
+<tr><td>Poona</td><td>4</td><td>Daniel Sanderson</td><td>Thursday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-4</td></tr>
+<tr><td>Tinnanbar</td><td>4</td><td>Daniel Sanderson</td><td>Thursday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-4</td></tr>
+<tr><td>Toogoom</td><td>5</td><td>Michelle Govers</td><td>Friday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-5</td></tr>
+<tr><td>Dundowran</td><td>5</td><td>Michelle Govers</td><td>Monday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-5</td></tr>
+<tr><td>Craignish</td><td>5</td><td>Michelle Govers</td><td>Monday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-5</td></tr>
+<tr><td>Takura</td><td>5</td><td>Michelle Govers</td><td>Monday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-5</td></tr>
+<tr><td>Walligan</td><td>5</td><td>Michelle Govers</td><td>Friday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-5</td></tr>
+<tr><td>Nikenbah</td><td>5</td><td>Michelle Govers</td><td>Friday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-5</td></tr>
+<tr><td>Eli Waters (part)</td><td>5/6</td><td>Govers / Cosgrove</td><td>Tuesday (varies)</td><td>Same day fortnightly (A/B)</td><td>div 5 + 6 pages</td></tr>
+<tr><td>Urraween (part)</td><td>5/8/9/7</td><td>Govers/Chapman/Faraj/Weiland</td><td>Wednesday (varies)</td><td>Same day fortnightly (A/B)</td><td>div 5 + 7 + 8 + 9 pages</td></tr>
+<tr><td>Point Vernon</td><td>6</td><td>Lachlan Cosgrove</td><td>Monday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-6</td></tr>
+<tr><td>Pialba (part)</td><td>6/9</td><td>Cosgrove / Faraj</td><td>Monday</td><td>Same day fortnightly (A/B)</td><td>div 6 + 9 pages</td></tr>
+<tr><td>Booral</td><td>7</td><td>John Weiland</td><td>Thursday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-7</td></tr>
+<tr><td>River Heads</td><td>7</td><td>John Weiland</td><td>Thursday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-7</td></tr>
+<tr><td>Urangan (part)</td><td>7/10</td><td>Weiland / O&#x27;Keefe</td><td>Thursday</td><td>Same day fortnightly (A/B)</td><td>div 7 + 10 pages</td></tr>
+<tr><td>Torquay (part)</td><td>7/9/10</td><td>Weiland / Faraj / O&#x27;Keefe</td><td>Wednesday</td><td>Same day fortnightly (A/B)</td><td>div 7 + 9 + 10 pages</td></tr>
+<tr><td>Wondunna (part)</td><td>7/9</td><td>Weiland / Faraj</td><td>Thursday</td><td>Same day fortnightly (A/B)</td><td>div 7 + 9 pages</td></tr>
+<tr><td>Susan River</td><td>8</td><td>Denis Chapman</td><td>Friday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-8</td></tr>
+<tr><td>Sunshine Acres</td><td>8</td><td>Denis Chapman</td><td>Friday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-8</td></tr>
+<tr><td>Urraween (part)</td><td>8/5/9</td><td>Chapman / Govers / Faraj</td><td>Wednesday (varies)</td><td>Same day fortnightly (A/B)</td><td>div 8 + others pages</td></tr>
+<tr><td>Kawungan (part)</td><td>8/9</td><td>Chapman / Faraj</td><td>Wednesday</td><td>Same day fortnightly (A/B)</td><td>div 8 + 9 pages</td></tr>
+<tr><td>Scarness</td><td>9</td><td>Sara Diana Faraj</td><td>Tuesday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-9</td></tr>
+<tr><td>Maryborough (various)</td><td>3/1/2/10</td><td>Paul Truscott / others</td><td>Tuesday (varies)</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-3</td></tr>
+<tr><td>Granville</td><td>3/10 (varies)</td><td>Paul Truscott / Zane O&#x27;Keefe</td><td>Wednesday</td><td>Same day fortnightly (A/B)</td><td>note: boundary varies</td></tr>
+<tr><td>Maryborough West</td><td>3 (likely)</td><td>Paul Truscott</td><td>Tuesday</td><td>Same day fortnightly (A/B)</td><td>frasercoast.qld.gov.au/cr-division-3</td></tr></tbody>
+  </table>
+
+  <h2 id="binrules">Kerbside Bin Rules & Timeframes</h2>
+  <table class="tight">
+    <thead><tr><th>Rule / Process</th><th>Detail</th><th>Effective</th><th>Source (text)</th></tr></thead>
+    <tbody>
+      <tr><td>Set-out time</td><td>Bins out by 6:00am; place out ≤24h before and retrieve ≤24h after collection</td><td>Ongoing</td><td>frasercoast.qld.gov.au/bin-collection</td></tr>
+      <tr><td>Spacing/weight</td><td>Keep ~60cm–1m between bins; lid closed; typical max ~75kg</td><td>Ongoing</td><td>frasercoast.qld.gov.au/bin-collection</td></tr>
+      <tr><td>Missed bin</td><td>Report within 48 hours; leave bin out until collected</td><td>Ongoing</td><td>frasercoast.qld.gov.au/bin-collection</td></tr>
+      <tr><td>Service frequency</td><td>General waste weekly; recycling fortnightly (Week A/B calendar 2023–2028)</td><td>2023–2028</td><td>frasercoast.qld.gov.au/downloads/file/4755/recycling-calendar-2023-2028</td></tr>
+      <tr><td>Event bins</td><td>Book in advance; charges apply</td><td>Ongoing</td><td>frasercoast.qld.gov.au/bin-collection</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="wastefacilities">Waste Facilities — Locations, Hours, Payment</h2>
+  <table>
+    <thead><tr><th>Facility</th><th>Address</th><th>Hours</th><th>Payments/Notes</th><th>Source (text)</th></tr></thead>
+    <tbody>
+      <tr><td>Hervey Bay Waste Facility</td><td>348 Aalborg Rd, Nikenbah</td><td>7 days · 7:30–17:00; Closed Christmas Day</td><td>EFTPOS + cash</td><td>frasercoast.qld.gov.au/waste-facilities</td></tr>
+      <tr><td>Maryborough Waste Facility</td><td>269 Ariadne St, Maryborough</td><td>7 days · 7:30–17:00; Closed Christmas Day</td><td>EFTPOS + cash</td><td>frasercoast.qld.gov.au/waste-facilities</td></tr>
+      <tr><td>Toogoom Transfer Station</td><td>61 O’Regan Creek Rd, Toogoom</td><td>Mon/Wed/Fri/Sat/Sun · 13:00–17:00</td><td>Cash only (no EFTPOS) + vouchers</td><td>frasercoast.qld.gov.au/waste-facilities</td></tr>
+      <tr><td>Howard Transfer Station</td><td>35 Powerhouse Rd, Howard</td><td>Wed/Sat/Sun · 8:00–12:00</td><td>Cash only (no EFTPOS) + vouchers</td><td>frasercoast.qld.gov.au/waste-facilities</td></tr>
+      <tr><td>Aramara Transfer Station</td><td>4553 Maryborough–Biggenden Rd, Brooweena</td><td>Tue/Thu · 7:00–12:00; Sun · 7:00–17:00</td><td>Cash only (no EFTPOS) + vouchers</td><td>frasercoast.qld.gov.au/waste-facilities</td></tr>
+      <tr><td>Boonooroo Transfer Station</td><td>190 Boonooroo Rd, Boonooroo</td><td>Fri/Sat · 7:00–12:00; Sun · 12:00–17:00</td><td>Cash only (no EFTPOS) + vouchers</td><td>frasercoast.qld.gov.au/waste-facilities</td></tr>
+      <tr><td>Closed sites (26 Jun 2023)</td><td>Burrum Heads; Granville; Tinana; Yengarie</td><td>-</td><td>Use nearest alternative</td><td>frasercoast.qld.gov.au/waste-facilities</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="libraries">Libraries — Locations & Hours</h2>
+  <table>
+    <thead><tr><th>Branch</th><th>Address</th><th>Phone</th><th>Opening hours</th><th>Source (text)</th></tr></thead>
+    <tbody>
+      <tr><td>Burrum Heads Library</td><td>22 Burrum Heads Rd, Burrum Heads</td><td>(07) 4129 5237</td><td>Mon Closed; Tue 9–1 & 2–5; Wed 9–1 & 2–5; Thu 9–1 & 2–5; Fri Closed; Sat 9–12; Sun Closed</td><td>frasercoast.qld.gov.au/libraries-location-and-hours</td></tr>
+      <tr><td>Hervey Bay Library (Pialba)</td><td>161 Old Maryborough Rd, Pialba</td><td>(07) 4197 4220</td><td>Mon 9–5; Tue 9–5; Wed 9–5; Thu 9–6; Fri 9–4; Sat 9–4; Sun Closed</td><td>frasercoast.qld.gov.au/libraries-location-and-hours</td></tr>
+      <tr><td>Howard Library</td><td>56 Steley St, Howard</td><td>(07) 4129 4144</td><td>Mon Closed; Tue 9–1 & 2–5; Wed 9–1 & 2–5; Thu 9–1 & 2–5; Fri Closed; Sat 9–12; Sun Closed</td><td>frasercoast.qld.gov.au/libraries-location-and-hours</td></tr>
+      <tr><td>John Anderson Library (Maryborough)</td><td>127–129 Bazaar St, Maryborough</td><td>(07) 4190 5788</td><td>Mon 9–5; Tue 9–5; Wed 9–5; Thu 9–6; Fri 9–4; Sat 9–12; Sun Closed</td><td>frasercoast.qld.gov.au/libraries-location-and-hours</td></tr>
+      <tr><td>Tom Gee Memorial Library (Tiaro)</td><td>Lot 1 Forgan Tce, Tiaro</td><td>(07) 4129 2453</td><td>Mon–Fri 8:30–1 & 2–4:30; Sat 9–12; Sun Closed</td><td>frasercoast.qld.gov.au/libraries-location-and-hours</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="pools">Aquatic Centres & WetSide — Hours & Casual Admission (2025/26)</h2>
+  <table>
+    <thead><tr><th>Facility</th><th>Address</th><th>Phone</th><th>Opening hours</th><th>Admission (casual)</th><th>Source (text)</th></tr></thead>
+    <tbody>
+      <tr><td>Hervey Bay Aquatic Centre</td><td>202–204 Boundary Rd, Torquay</td><td>(07) 4197 4703</td><td>Mon Closed; Tue–Fri 5:30–18:30; Sat–Sun 8:00–14:00; PH Closed (except Australia Day 8–14)</td><td>Adult $5.50; Concession/Child (3–15) $4.00; Family (4, max 2 adults) $15.40; Spectator/Carer Free</td><td>frasercoast.qld.gov.au/hervey-bay-aquatic-centre</td></tr>
+      <tr><td>Maryborough Aquatic Centre</td><td>Cnr John & Kent Sts, Maryborough</td><td>(07) 4190 5875</td><td>Mon–Thu 5:30–18:30; Fri Closed; Sat–Sun 8:00–14:00; Australia Day 8–14; PH Closed</td><td>Adult $5.50; Concession/Child (3–15) $4.00; Family (4, max 2 adults) $15.40; Spectator/Carer Free</td><td>frasercoast.qld.gov.au/maryborough-aquatic-centre</td></tr>
+      <tr><td>WetSide Water Park</td><td>Esplanade & Main St, Hervey Bay</td><td>0406 451 472</td><td>Seasonal: school holidays typically 10–17; otherwise Sat–Sun 10–16</td><td>Water play free; waterslides (e.g., $8 for 10 rides)</td><td>frasercoast.qld.gov.au/wetside-water-park</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="complaints">Complaints & Reporting — How/When</h2>
+  <table class="tight">
+    <thead><tr><th>Type</th><th>Key timing / requirement</th><th>Lodge via</th><th>Source (text)</th></tr></thead>
+    <tbody>
+      <tr><td>Administrative Action Complaint</td><td>You must be directly affected; lodge the AAC form</td><td>Online or email</td><td>frasercoast.qld.gov.au/compliments-complaints</td></tr>
+      <tr><td>Missed bin</td><td>Report within 48 hours; leave bin out</td><td>Online request</td><td>frasercoast.qld.gov.au/bin-collection</td></tr>
+      <tr><td>Damaged/abandoned bin</td><td>Report; leave bin empty on kerb for repair/replacement</td><td>Online request</td><td>frasercoast.qld.gov.au/bin-collection</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="rates">Rates — Essentials</h2>
+  <table class="tight">
+    <thead><tr><th>Topic</th><th>Detail</th><th>Source (text)</th></tr></thead>
+    <tbody>
+      <tr><td>Pension concession</td><td>QLD PCC or DVA Gold; principal place of residence; starts from earliest of card/PPR/current rating period; no backdating</td><td>frasercoast.qld.gov.au/pension-concession-rates</td></tr>
+      <tr><td>Paying rates</td><td>Online, BPAY, in-person; e‑notices available</td><td>frasercoast.qld.gov.au/pay-your-rates</td></tr>
+      <tr><td>Hardship</td><td>Financial hardship assistance policy/process</td><td>frasercoast.qld.gov.au/difficulty-paying-rates</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="animals">Animals & Pets — Essentials</h2>
+  <table class="tight">
+    <thead><tr><th>Topic</th><th>Detail</th><th>Source (text)</th></tr></thead>
+    <tbody>
+      <tr><td>Dog registration — due date</td><td>Renewal due 31 Oct each year</td><td>frasercoast.qld.gov.au/animals-and-pets/dogs</td></tr>
+      <tr><td>First-time dog registration</td><td>Free up to end of current renewal period (31 Oct)</td><td>frasercoast.qld.gov.au/animals-and-pets/dogs</td></tr>
+      <tr><td>Age to register</td><td>Register from 12 weeks of age or within 14 days of moving to the region</td><td>frasercoast.qld.gov.au/animals-and-pets/dogs</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="fees-animals">Animal Management — Detailed Fees (from Schedule 2025/26)</h2>
+  <table>
+    <thead><tr><th>Item</th><th>Line (context)</th><th>Price(s)</th><th>Source (text)</th></tr></thead>
+    <tbody>
+<tr><td>Information provided within three (3) working days following receipt of the application.</td><td>This fee includes an $80.00 Ownership transfer registration fee. LG Reg 2012 s162 and LGA 2009 s97 (2)(b).</td><td>$80.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Information provided within five (5) to ten (10) working days following receipt of the application.</td><td>This fee includes an $80.00 Ownership transfer registration fee. LG Reg 2012 s162 and LGA 2009 s97 (2)(b).</td><td>$80.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Includes the name and postal address of the owner of the land and a description of the land, including its location and size.</td><td>Temporary Vehicle Access to Council Controlled Land - Application Fee   Per Application   $250.00   N    -</td><td>$250.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Temporary Vehicle Access to Council Controlled Land - Application Fee   Per Application   $250.00   N    -</td><td>Temporary Vehicle Access to Council Controlled Land - Bond Per Application Minimum $500 up</td><td>$500</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Temporary Vehicle Access to Council Controlled Land - Bond Per Application Minimum $500 up</td><td>Site on Memorial Pole Including Optional Scattering of Ashes in Pond of Reflection   Per Site   $335.00   N  LGA 2009 | s262(3)(c)  -</td><td>$335.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Scattering of ashes in Pond of Reflection   Per Container   Service Fee   Y  LGA 2009 | s262(3)(c)  -</td><td>Application to Erect a Monument or Install a Plaque on a Grave (Plaque Not Included)   Per Grave/Niche   $160.00   N  LGA 2009 | s262(3)(c)  -</td><td>$160.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Large stock means Alpacas, Asses, Camels, Cattle, Donkeys, Horses, Llamas, Mules or Vicunas</td><td>Application to install or change a structure     $171.50   N  SLL1 | Schedule 6  (2)(a)</td><td>$171.50</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application to install or change a structure     $171.50   N  SLL1 | Schedule 6  (2)(a)</td><td>Application fee for new (not existing) gate or grid licence holder     $746.00   N  SLL1 | Schedule 27 s6(4)  (2)(a)</td><td>$746.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application fee for works involving opening of a road that requires footpath closure,</td><td>Application fee for minor construction on road reserves     $479.00   N  SLL1 | Schedule 27 s6  (2)(a)</td><td>$479.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>When a road closure or opening is not part of the application but an assessment of altered traffic conditions and Traffic Management Plan is required.</td><td>Application fee for review of Traffic Guidance Scheme for community events     $192.00   N    -</td><td>$192.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application fee for review of Traffic Guidance Scheme for community events     $192.00   N    -</td><td>Application fee for Barge Landing permit     $476.00   Y  SLL1 | Schedule 7  (2)(a)</td><td>$476.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application fee for a commercial or non-recreational use of Council-owned marine</td><td>Application fee for a commercial or non-recreational use of State-owned marine facility.     $474.00   Y  TI(PMF) Reg 2011  (2)(a)</td><td>$474.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application fee for a commercial or non-recreational use of State-owned marine facility.     $474.00   Y  TI(PMF) Reg 2011  (2)(a)</td><td>Education Program - in museum (teacher free of charge)   Per student   $5.00   Y    -</td><td>$5.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Education Program - in museum (teacher free of charge)   Per student   $5.00   Y    -</td><td>Education Program - school visit (teacher free of charge)   Per student   $3.75   Y    -</td><td>$3.75</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Education Program - school visit (teacher free of charge)   Per student   $3.75   Y    -</td><td>Concession (Identification required)   Per person   $11.00   Y    -</td><td>$11.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Concession (Identification required)   Per person   $11.00   Y    -</td><td>Education Program - in museum (teacher free of charge)   Per student   $5.00   Y    -</td><td>$5.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>• are a registered ‘Not for Profit” Group as defined by the Australian Taxation Office (evidence of “Not for Profit” registration status must be provided)</td><td>Education Program - school visit (teacher free of charge)   Per student   $3.75   Y    -</td><td>$3.75</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>October each year) (excludes impounded dogs)   No charge</td><td>General Registration (entire dog)     $177.00   N  AMA 2008 | s44  (2)(a)</td><td>$177.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>General Registration (entire dog)     $177.00   N  AMA 2008 | s44  (2)(a)</td><td>General Registration (concessional desexed dog)     $42.00   N  AMA 2008 | s44  (2)(a)</td><td>$42.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Assistance dogs - Owner to be in possession of a &quot;Handler Identity Card&quot;     No charge   N  AMA 2008 | s44  (2)(a)</td><td>Regulated dog (compulsory to be desexed)     $682.00   N  AMA 2008 &amp; LL2 | s44 &amp; s7  (2)(a)</td><td>$682.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Regulated dog (compulsory to be desexed)     $682.00   N  AMA 2008 &amp; LL2 | s44 &amp; s7  (2)(a)</td><td>Regulated dog - Replacement and/or additional sign or collar   Per item   $59.00   Y    -</td><td>$59.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Adoption of cat 8 years+ (includes desexing, microchipping, vaccination, flea and</td><td>Horse/Cattle/Livestock (includes vaccines if applicable, microchipping &amp; de-worming) Per head $160.00 Y LL2 | Part 4</td><td>$160.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Horse/Cattle/Livestock (includes vaccines if applicable, microchipping &amp; de-worming) Per head $160.00 Y LL2 | Part 4</td><td>Other Animals (Small) Per head $11.00 Y LL2 | Part 4</td><td>$11.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Other Animals (Small) Per head $11.00 Y LL2 | Part 4</td><td>Other Animals (Large) Per head $55.00 Y LL2 | Part 4</td><td>$55.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Other Animals (Large) Per head $55.00 Y LL2 | Part 4</td><td>Additional Animal Application Fee - non-transferable to another property Per Property $193.00 N LL1 | Section 9 (2a) &amp; SLL1</td><td>$193.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Additional Animal Application Fee - non-transferable to another property Per Property $193.00 N LL1 | Section 9 (2a) &amp; SLL1</td><td>Animals requiring approval Per Property $185.00 N LL1 | Section 9 (2a) &amp; SLL1</td><td>$185.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>First release - animals not registered and/or microchipped. Registration fee additional</td><td>to impound release fee   $252.00 N LL2 | Part 4</td><td>$252.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Horses, cattle and other large livestock</td><td>Large livestock (horse, cattle, alpacas, pigs etc.) Per head $313.00 N LL2 | Part 4</td><td>$313.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Driving or transporting of animals to a Council impound facility   Cost + 15% N LL2 | Part 4</td><td>Tagging fee for impounded livestock   $40.00 N LL2 | Part 4</td><td>$40.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual Authority and inspection fee (application fee also required for new applications)    [continued]</td><td>Amendment to Environmental Authority application     $352.00   N  EP Reg | 2019  -</td><td>$352.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Amendment to Environmental Authority application     $352.00   N  EP Reg | 2019  -</td><td>Amalgamation of Environmental Authority application     $368.00   N  EP Reg | 2019  -</td><td>$368.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Amalgamation of Environmental Authority application     $368.00   N  EP Reg | 2019  -</td><td>Application for transfer of Environmental Authority     $147.00   N  EP Reg | 2019  -</td><td>$147.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for transfer of Environmental Authority     $147.00   N  EP Reg | 2019  -</td><td>Application (annual licence and inspection fee also required)     $699.00   N  PH(ICPS) Act 2003 | s9(2)  (2)(a)</td><td>$699.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Additional application fee per additional premises to be licensed under the one licence</td><td>Annual licence and inspection (application fee also required for new applications)   Per premises   $341.00   N  PH(ICPS) Act 2003 | s9(2)  (2)(a)</td><td>$341.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual licence and inspection (application fee also required for new applications)   Per premises   $341.00   N  PH(ICPS) Act 2003 | s9(2)  (2)(a)</td><td>Application for transfer of approval   Per premises   $435.00   N  PH(ICPS) Act 2003 | s9(2)  (2)(a)</td><td>$435.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Wholesaler, caterer, vulnerable population food business, multiple food preparation areas.</td><td>Application (annual licence and inspection fee also required)     $1,089.00   N  FA 2006 | s31  (2)(a)</td><td>$1,089.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual Licence &amp; Inspection - Star rating 0-2 (application fee also required for new</td><td>applications)   $748.00 N FA 2006 | s31 (2)(a)</td><td>$748.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual Licence &amp; Inspection - Star rating 3 (application fee also required for new</td><td>applications)   $676.00 N FA 2006 | s31 (2)(a)</td><td>$676.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual Licence &amp; Inspection - Star rating 4 (application fee also required for new</td><td>applications)   $638.00 N FA 2006 | s31 (2)(a)</td><td>$638.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual Licence &amp; Inspection - Star rating 5 (application fee also required for new</td><td>applications)   $599.00 N FA 2006 | s31 (2)(a)</td><td>$599.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Category B    [continued]</td><td>Application (annual licence and inspection fee also required)     $995.00   N  FA 2006 | s31  (2)(a)</td><td>$995.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual Licence &amp; Inspection - Star rating 0-2 (application fee also required for new</td><td>applications)   $561.00 N FA 2006 | s31 (2)(a)</td><td>$561.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual Licence &amp; Inspection - Star rating 3 (application fee also required for new</td><td>applications)   $505.00 N FA 2006 | s31 (2)(a)</td><td>$505.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual Licence &amp; Inspection - Star rating 4 (application fee also required for new</td><td>applications)   $478.00 N FA 2006 | s31 (2)(a)</td><td>$478.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual Licence &amp; Inspection - Star rating 5 (application fee also required for new</td><td>applications)   $451.00 N FA 2006 | s31 (2)(a)</td><td>$451.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Category C</td><td>Application (annual licence and inspection fee also required)     $808.00   N  FA 2006 | s31  (2)(a)</td><td>$808.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual Licence &amp; Inspection - Star rating 0-2 (application fee also required for new</td><td>applications)   $363.00 N FA 2006 | s31 (2)(a)</td><td>$363.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual Licence &amp; Inspection - Star rating 3 (application fee also required for new</td><td>applications)   $336.00 N FA 2006 | s31 (2)(a)</td><td>$336.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual Licence &amp; Inspection - Star rating 4 (application fee also required for new</td><td>applications)   $319.00 N FA 2006 | s31 (2)(a)</td><td>$319.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual Licence &amp; Inspection - Star rating 5 (application fee also required for new</td><td>applications)   $303.00 N FA 2006 | s31 (2)(a)</td><td>$303.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Applications received within ten (10) business days of the date of the activity or event will incur an urgent application processing fee.</td><td>Application - Annual Food Stall (annual licence and inspection fee also required)     $798.00   N  FA 2006 | s31  (2)(a)</td><td>$798.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application - Annual Food Stall (annual licence and inspection fee also required)     $798.00   N  FA 2006 | s31  (2)(a)</td><td>Urgent application - Annual Food Stall (annual licence and inspection fee also required)     $907.00   N  FA 2006 | s31  (2)(a)</td><td>$907.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Urgent application - Annual Food Stall (annual licence and inspection fee also required)     $907.00   N  FA 2006 | s31  (2)(a)</td><td>Annual Licence &amp; Inspection (application fee also required for new applications)     $368.00   N  FA 2006 | s31  (2)(a)</td><td>$368.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Applications received within ten (10) business days of the date of the activity or event will incur an urgent application processing fee.</td><td>Application- Annual Food Stall (annual licence and inspection fee also required)     $396.00   N  FA 2006 | s31  (2)(a)</td><td>$396.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application- Annual Food Stall (annual licence and inspection fee also required)     $396.00   N  FA 2006 | s31  (2)(a)</td><td>Urgent application - Annual Food Stall (annual licence and inspection fee also required)     $512.00   N  FA 2006 | s31  (2)(a)</td><td>$512.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual Food Stall Licence and Inspection (application fee also required for new</td><td>applications)   $182.00 N FA 2006 | s31 (2)(a)</td><td>$182.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Category A (e.g. wholesaler, caterer, vulnerable population food business, multiple</td><td>Category B (e.g. café/restaurant/retail)     $407.00   N  FA 2006 | s31  (2)(a)</td><td>$407.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Category B (e.g. café/restaurant/retail)     $407.00   N  FA 2006 | s31  (2)(a)</td><td>Category C (e.g. fruit and vegetables, home-based businesses)     $220.00   N  FA 2006 | s31  (2)(a)</td><td>$220.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Category A (e.g. wholesaler, caterer, vulnerable population food business, multiple</td><td>Category B (e.g. café/restaurant/retail)     $478.00   N  FA 2006 | s31  (2)(a)</td><td>$478.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Category B (e.g. café/restaurant/retail)     $478.00   N  FA 2006 | s31  (2)(a)</td><td>Category C (e.g. fruit and vegetables, home-based businesses)     $330.00   N  FA 2006 | s31  (2)(a)</td><td>$330.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Category C (e.g. fruit and vegetables, home-based businesses)     $330.00   N  FA 2006 | s31  (2)(a)</td><td>Application - Minor regrade     $264.00   N  FA 2006 | s31  (2)(a)</td><td>$264.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application - Minor regrade     $264.00   N  FA 2006 | s31  (2)(a)</td><td>Application - Major regrade     $336.00   N  FA 2006 | s31  (2)(a)</td><td>$336.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>*The approved auditor fee is to be invoiced directly to the applicant for payment by the applicant to the auditor and proof of payment must be provided to Council prior to the application being</td><td>Application for food business licence (annual licence and inspection fee also required)     $462.00   N  FA 2006 | s31  (2)(a)</td><td>$462.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for food business licence (annual licence and inspection fee also required)     $462.00   N  FA 2006 | s31  (2)(a)</td><td>(application fee also required for new applications)   $544.00 N FA 2006 | s31 (2)(a)</td><td>$544.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>(application fee also required for new applications)   $544.00 N FA 2006 | s31 (2)(a)</td><td>Application for minor amendment of licence     $85.00   N  FA 2006 | s31  (2)(a)</td><td>$85.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for minor amendment of licence     $85.00   N  FA 2006 | s31  (2)(a)</td><td>Application for restoration of licence     $165.00   N  FA 2006 | s31  (2)(a)</td><td>$165.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>HEALTH/ENVIRONMENTAL COMPLIANCE SEARCH APPLICATION    [continued]</td><td>Application (annual approval and inspection fee also required)     $1,440.00   N  SLL1 | Schedule 16  (2)(a)</td><td>$1,440.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual approval and inspection (application fee also required for new applications)</td><td>Application for transfer of approval     $467.00   N  SLL1 | Schedule 16  (2)(a)</td><td>$467.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for transfer of approval     $467.00   N  SLL1 | Schedule 16  (2)(a)</td><td>Application (annual approval and inspection fee also required)     $704.00   N  SLL1 | Schedule 11 &amp; 13  (2)(a)</td><td>$704.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application (annual approval and inspection fee also required)     $704.00   N  SLL1 | Schedule 11 &amp; 13  (2)(a)</td><td>Annual approval and inspection (application fee also required for new applications)   $200.00 + $5.00 per</td><td>$200.00; $5.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual approval and inspection (application fee also required for new applications)   $200.00 + $5.00 per</td><td>Application for transfer of approval     $368.00   N  SLL1 | Schedule 11 &amp; 13  (2)(a)</td><td>$368.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for transfer of approval     $368.00   N  SLL1 | Schedule 11 &amp; 13  (2)(a)</td><td>Application (annual approval and inspection fee also required)     $544.00   N  SLL1 | Schedule 11 &amp; 13  (2)(a)</td><td>$544.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application (annual approval and inspection fee also required)     $544.00   N  SLL1 | Schedule 11 &amp; 13  (2)(a)</td><td>Annual approval and inspection (application fee also required for new applications)   $100.00 + $5.00 per</td><td>$100.00; $5.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual approval and inspection (application fee also required for new applications)   $100.00 + $5.00 per</td><td>Application for transfer of approval     $253.00   N  SLL1 | Schedule 11 &amp; 13  (2)(a)</td><td>$253.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for transfer of approval     $253.00   N  SLL1 | Schedule 11 &amp; 13  (2)(a)</td><td>Application for establishment or occupation of a temporary home     $984.00   N  SLL1 | Schedule 8  (2)(a)</td><td>$984.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for establishment or occupation of a temporary home     $984.00   N  SLL1 | Schedule 8  (2)(a)</td><td>Application     $291.00   N  SLL1 | Schedule 7  (2)(a)</td><td>$291.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application     $291.00   N  SLL1 | Schedule 7  (2)(a)</td><td>Application for transfer of approval     $176.00   N  SLL1 | Schedule 7  (2)(a)</td><td>$176.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for transfer of approval     $176.00   N  SLL1 | Schedule 7  (2)(a)</td><td>Application (annual approval and inspection fee also required)   $865.00 + $410.00</td><td>$865.00; $410.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual approval and inspection - per mobile premises (application fee also required for</td><td>new applications)   $330.00 N SLL1 | Schedule 7 (2)(a)</td><td>$330.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>new applications)   $330.00 N SLL1 | Schedule 7 (2)(a)</td><td>Application for transfer of approval     $363.00   N  SLL1 | Schedule 7  (2)(a)</td><td>$363.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for transfer of approval     $363.00   N  SLL1 | Schedule 7  (2)(a)</td><td>Application (annual approval and inspection fee also required)   $865.00 + $410.00</td><td>$865.00; $410.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for transfer of approval     $363.00   N  SLL1 | Schedule 7  (2)(a)</td><td>Application and approval     $33.00   N  SLL1 | Schedule 7  (2)(a)</td><td>$33.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Applications are assessed for safety, aesthetics, amenity, congestion and public liability insurance. The assessment includes applications for temporary</td><td>Application (annual approval fee also required)     $226.00   N  SLL1 | Schedule 7 &amp; 9  (2)(a)</td><td>$226.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application (annual approval fee also required)     $226.00   N  SLL1 | Schedule 7 &amp; 9  (2)(a)</td><td>Application for transfer of approval     $226.00   N  SLL1 | Schedule 7 &amp; 9  (2)(a)</td><td>$226.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for transfer of approval     $226.00   N  SLL1 | Schedule 7 &amp; 9  (2)(a)</td><td>Release of confiscated sign fee - signs on road reserve   Per sign   $57.00   N  LL1 | s37  (2)(d)</td><td>$57.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Applications are assessed against relevant guidelines and leglislation - (each application requires additional payment for annual hire of bay).</td><td>Application (Excludes annual hire of bay)     $750.00   N  SLL1 | Schedule 6  -</td><td>$750.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application (Excludes annual hire of bay)     $750.00   N  SLL1 | Schedule 6  -</td><td>Application (annual approval and inspection fee also required)     $582.00   N  SLL1 | Schedule 15  (2)(a)</td><td>$582.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application (annual approval and inspection fee also required)     $582.00   N  SLL1 | Schedule 15  (2)(a)</td><td>Annual approval and inspection (application fee also required for new applications)     $330.00   N  SLL1 | Schedule 15  (2)(a)</td><td>$330.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual approval and inspection (application fee also required for new applications)     $330.00   N  SLL1 | Schedule 15  (2)(a)</td><td>Application for transfer of approval     $313.00   N  SLL1 | Schedule 15  (2)(a)</td><td>$313.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for transfer of approval     $313.00   N  SLL1 | Schedule 15  (2)(a)</td><td>Application for disturbance of human remains buried outside a cemetery     $505.00   N  SLL1 | Schedule 18  (2)(a)</td><td>$505.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for disturbance of human remains buried outside a cemetery     $505.00   N  SLL1 | Schedule 18  (2)(a)</td><td>Application for burial or disposal of human remains buried outside a cemetery     $638.00   N  SLL1 | Schedule 19  (2)(a)</td><td>$638.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>The charge for this application for operation of cemeteries is to obtain an approval and is separate to any charges incurred under the Planning Scheme.</td><td>Application (annual approval and inspection fee also required)     $627.00   N  SLL1 | Schedule 14  (2)(a)</td><td>$627.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application (annual approval and inspection fee also required)     $627.00   N  SLL1 | Schedule 14  (2)(a)</td><td>Annual approval and inspection (application fee also required for new applications)     $423.00   N  SLL1 | Schedule 14  (2)(a)</td><td>$423.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual approval and inspection (application fee also required for new applications)     $423.00   N  SLL1 | Schedule 14  (2)(a)</td><td>Application for minor amendment of approval   $84.70 N SLL1 | Schedule</td><td>$84.70</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for minor amendment of approval   $84.70 N SLL1 | Schedule</td><td>Application for minor alteration (minor refit) to an existing approved facility   $200.00 N SLL1 | Schedule</td><td>$200.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for minor alteration (minor refit) to an existing approved facility   $200.00 N SLL1 | Schedule</td><td>Application for major alteration (major refit) to an existing approved facility   $300.00 N SLL1 | Schedule</td><td>$300.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>SEIZED AND IMPOUNDED ITEMS (release)</td><td>Seized and Impounded items (other than Animals and Vehicles)     $61.00   N  LL1 | s 37 (2),(5)(c)  -</td><td>$61.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Seized and Impounded items (other than Animals and Vehicles)     $61.00   N  LL1 | s 37 (2),(5)(c)  -</td><td>Parking Permit Application     $52.00   N  SLL1 | Schedule 25  (2)(a)</td><td>$52.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Parking Permit Application     $52.00   N  SLL1 | Schedule 25  (2)(a)</td><td>a maximum of 28 days (application fee additional) Per bay per 7 days $154.00 N SLL1 | Schedule 25 (2)(a)</td><td>$154.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>a maximum of 28 days (application fee additional) Per bay per 7 days $154.00 N SLL1 | Schedule 25 (2)(a)</td><td>Residential Parking Permit (annual) (application fee additional)   Per bay   $806.00   N  SLL1 | Schedule 25  (2)(a)</td><td>$806.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Residential Parking Permit (annual) (application fee additional)   Per bay   $806.00   N  SLL1 | Schedule 25  (2)(a)</td><td>Vehicle Registration Search Fee   Per search   $26.00   N  SPEA 1999 | s14  (2)(a)</td><td>$26.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Vehicle Registration Search Fee   Per search   $26.00   N  SPEA 1999 | s14  (2)(a)</td><td>Application for building work     $149.00   N  BA 1975 | s86  (2)(e)</td><td>$149.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for building work     $149.00   N  BA 1975 | s86  (2)(e)</td><td>Amendment to application from private certifier (application and/or plans)     $30.00   N  BA 1975 | s86  (2)(e)</td><td>$30.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Preparation of Certificate of Occupancy for Existing Buildings     By quotation   Y  BA 1975 | Chapter 5  (2)(e)</td><td>Application to extend currency period prior to lapsing of application     $231.00   N  BA 1975 | Chapter 4  (2)(e)</td><td>$231.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>PLUMBING CERTIFICATION SERVICES</td><td>Application     $286.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>$286.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application     $286.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>Fixture/Appliance/Apparatus (additional to application fee)   each   $127.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>$127.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Fixture/Appliance/Apparatus (additional to application fee)   each   $127.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>Future Fixture/Appliance/Apparatus (additional to application fee)   each   $192.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>$192.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application (septic to sewer OR subdivision of sewered site - connection, alteration,</td><td>Application (grey water treatment)     $522.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>$522.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application (including pre-approval on-site inspection and assessment of on-site</td><td>Fixture/Appliance/Apparatus (additional to application fee)   each   $127.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>$127.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Fixture/Appliance/Apparatus (additional to application fee)   each   $127.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>Future Fixture/Appliance/Apparatus (additional to application fee)   each   $193.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>$193.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Future Fixture/Appliance/Apparatus (additional to application fee)   each   $193.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>Application (where there is an existing on-site sewage facility)     $250.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>$250.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for demolition, removal or replacement of components of an on-site</td><td>Application (including approval and inspection)     $286.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>$286.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application (including approval and inspection)     $286.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>Fixture/Appliance/Apparatus (additional to application fee)   each   $127.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>$127.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Future Fixture/Appliance/Apparatus (additional to application fee)   each   $193.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>Application (septic to sewer)     $522.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>$522.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application (septic to sewer)     $522.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>Application (temporary site amenities)     $522.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>$522.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application (temporary site amenities)     $522.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>Application (grey water treatment)     $522.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>$522.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Future Fixture/Appliance/Apparatus (additional to application fee)   each   $193.00   N  PDR 2019 | s44 (1)(iv)  (2)(e)</td><td>Application (temporary site amenities)     $522.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>$522.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Standalone applications</td><td>Alternative solution (additional to application fee)     $358.00   N  PDR 2019 | s44 (1)(iv)  (2)(a),(e)</td><td>$358.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>If permit has expired - fees as per new application.</td><td>apparatus fees additional to amendment application fee)   $361.00</td><td>$361.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>apparatus fees additional to amendment application fee)   $361.00</td><td>septic to treatment plant or alteration to location or type of land application area)   $330.00 N PDR 2019 | s43 (2)(a),(e)</td><td>$330.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="fees-cemeteries">Cemeteries & Memorials — Fees (from Schedule 2025/26)</h2>
+  <table>
+    <thead><tr><th>Item</th><th>Line (context)</th><th>Price(s)</th><th>Source (text)</th></tr></thead>
+    <tbody>
+<tr><td>PURCHASE OF BURIAL RIGHTS - GRAVES - INTERMENT FEE NOT INCLUDED</td><td>Purchase of Burial Rights - Grave   Per Grave   $1,500.00   N  LGA 2009 | s262(3)(c)  -</td><td>$1,500.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Purchase of Burial Rights - Grave   Per Grave   $1,500.00   N  LGA 2009 | s262(3)(c)  -</td><td>Purchase of Burial Rights - Nikenbah Natural Cemetery - Grave (Single Burial Only)   Per Grave   $1,500.00   N  LGA 2009 | s262(3)(c)  -</td><td>$1,500.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Purchase of Burial Rights - Nikenbah Natural Cemetery - Grave (Single Burial Only)   Per Grave   $1,500.00   N  LGA 2009 | s262(3)(c)  -</td><td>Purchase of Burial Rights - Restricted Use/Ashes Only Grave - Conditions Apply   Per Grave   $800.00   N  LGA 2009 | s262(3)(c)  -</td><td>$800.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>INTERMENT FEES - GRAVES - PURCHASE OF BURIAL RIGHTS FEE NOT INCLUDED</td><td>Interment Fee - First Burial   Per Grave   $2,970.00   Y  LGA 2009 | s262(3)(c)  -</td><td>$2,970.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Interment Fee - Subsequent Burial or Re-Open (Not Applicable for Nikenbah Natural</td><td>Cemetery) Per Grave $1,320.00 Y LGA 2009 | s262(3)(c) -</td><td>$1,320.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>PURCHASE OF BURIAL RIGHTS FEES - NICHES - INTERMENT OF ASHES AND PLAQUE FEES NOT INCLUDED. ALL NICHE PLAQUES MUST BE</td><td>Niche - Columbarium Wall   Per Grave/Niche   $620.00   N  LGA 2009 | s262(3)(c)  -</td><td>$620.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Niche - Columbarium Wall   Per Grave/Niche   $620.00   N  LGA 2009 | s262(3)(c)  -</td><td>Niche - Garden - up to 2 interments   Per Grave/Niche   $935.00   N  LGA 2009 | s262(3)(c)  -</td><td>$935.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Niche - Garden - up to 2 interments   Per Grave/Niche   $935.00   N  LGA 2009 | s262(3)(c)  -</td><td>Site on Memorial Pole   Per Site   $335.00   N  LGA 2009 | s262(3)(c)  -</td><td>$335.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Childrens Memorial Garden Maryborough</td><td>Purchase of Burial Rights - Niche   Per Niche   $280.00   N  LGA 2009 | s262(3)(c)  -</td><td>$280.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Pond of Reflection Ashes Garden Maryborough</td><td>Site on Memorial Pole Including Optional Scattering of Ashes in Pond of Reflection   Per Site   $335.00   N  LGA 2009 | s262(3)(c)  -</td><td>$335.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Pond of Reflection Ashes Garden Maryborough    [continued]</td><td>Double Niche - Log Sign  Per Double Niche   $1,320.00   N  LGA 2009 | s262(3)(c)  -</td><td>$1,320.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>INTERMENT FEES - GRAVES/NICHES/VAULTS - PURCHASE OF BURIAL RIGHTS AND PLAQUE FEES NOT INCLUDED. ALL NICHE PLAQUES MUST</td><td>Interment Fee - Ashes into a Grave/Niche/Rock OR Ashes/Coffin/Casket into a Vault   Per Interment   $385.00   Y  LGA 2009 | s262(3)(c)  -</td><td>$385.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Interment Fee - Ashes into a Grave/Niche/Rock OR Ashes/Coffin/Casket into a Vault   Per Interment   $385.00   Y  LGA 2009 | s262(3)(c)  -</td><td>Multiple Ashes Interment - In Same Niche at Same Time   Per Niche   $385.00   Y  LGA 2009 | s262(3)(c)  -</td><td>$385.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>MEMORIAL/PLAQUE CONSTRUCTION AND INSTALLATION</td><td>Application to Erect a Monument or Install a Plaque on a Grave (Plaque Not Included)   Per Grave/Niche   $160.00   N  LGA 2009 | s262(3)(c)  -</td><td>$160.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Relocation/Removal of Ashes and/or Plaque  Per Ashes/Plaque   Service Fee   Y  LGA 2009 | s262(3)(c)  -</td><td>Exhumation   Per Grave/Niche   $6,570.00   Y  LGA 2009 | s262(3)(c)  -</td><td>$6,570.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Memorial)   50% of Full Fee Y LGA 2009 | s262(3)(c) -</td><td>Transfer of Burial Rights of a Grave or Niche   Per Grave/Niche   $160.00   N  LGA 2009 | s262(3)(c)  -</td><td>$160.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Ashes Container (Only Required if Ashes Are Not Supplied in a Container Which Does</td><td>Not Fit Into Niche Provided) Per Container $25.00 Y LGA 2009 | s262(3)(c) -</td><td>$25.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Memorial Service Not Held at Time of Burial/Ashes Interment - Outside Standard</td><td>Burials - Weekdays - Where Services Do Not Commence Between 10am - 2:30pm   Per Hour   $175.00   Y  LGA 2009 | s262(3)(c)  -</td><td>$175.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Saturdays - Ashes Interment into a Grave/Niche/Rock OR Ashes/Coffin/Casket into a</td><td>Vault (Between 10am - 12pm) Per Grave/Niche $355.00 Y LGA 2009 | s262(3)(c) -</td><td>$355.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Vault (Between 10am - 12pm) Per Grave/Niche $355.00 Y LGA 2009 | s262(3)(c) -</td><td>Saturdays - Burials (Between 10am - 12pm)   Per Burial   $2,740.00   Y  LGA 2009 | s262(3)(c)  -</td><td>$2,740.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Saturdays - Burials (Between 10am - 12pm)   Per Burial   $2,740.00   Y  LGA 2009 | s262(3)(c)  -</td><td>Removal of Plaque (If Carried Out by Council Staff) Per Grave/Niche $570.00 Y LGA 2009 | s262(3)(c) -</td><td>$570.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Surrender of Reserved Niche/Memorial Site Reserved Prior to 1 January 2002 -</td><td>Council Purchase Price Per Niche/Site $260.00 N LL1 | s35(2) -</td><td>$260.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Submitted, Where Required Per Grave/Niche</td><td>Application for disturbance of human remains buried outside a cemetery     $505.00   N  SLL1 | Schedule 18  (2)(a)</td><td>$505.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for disturbance of human remains buried outside a cemetery     $505.00   N  SLL1 | Schedule 18  (2)(a)</td><td>Application for burial or disposal of human remains buried outside a cemetery     $638.00   N  SLL1 | Schedule 19  (2)(a)</td><td>$638.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for burial or disposal of human remains buried outside a cemetery     $638.00   N  SLL1 | Schedule 19  (2)(a)</td><td>Transfer of Burial Rights for burial outside a cemetery     $77.00   N  SLL1 | Schedule 19  (2)(a)</td><td>$77.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>The charge for this application for operation of cemeteries is to obtain an approval and is separate to any charges incurred under the Planning Scheme.</td><td>Impact Fee - Cemetery   Base fee   $5,705.00   N  PA 2016 | s51(1)(b)(ii)  (2)(a)</td><td>$5,705.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Impact Fee - Cemetery   Base fee   $5,705.00   N  PA 2016 | s51(1)(b)(ii)  (2)(a)</td><td>Code Fee - Cemetery   Base fee   $4,226.00   N  PA 2016 | s51(1)(b)(ii)  (2)(a)</td><td>$4,226.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="fees-parking">Parking & Infringements — Fees (from Schedule 2025/26)</h2>
+  <table>
+    <thead><tr><th>Item</th><th>Line (context)</th><th>Price(s)</th><th>Source (text)</th></tr></thead>
+    <tbody>
+<tr><td>For Deborah Cemetery special circumstances apply.</td><td>Purchase of Burial Rights - Nikenbah Natural Cemetery - Grave (Single Burial Only)   Per Grave   $1,500.00   N  LGA 2009 | s262(3)(c)  -</td><td>$1,500.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Purchase of Burial Rights - Nikenbah Natural Cemetery - Grave (Single Burial Only)   Per Grave   $1,500.00   N  LGA 2009 | s262(3)(c)  -</td><td>Cemetery) Per Grave $1,320.00 Y LGA 2009 | s262(3)(c) -</td><td>$1,320.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Collection, processing and supply of new traffic count information   Per site   POA   N    (2)(a)</td><td>Supply of existing traffic count information   Per site   $87.40   N    (2)(a)</td><td>$87.40</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>including review of the Traffic Guidance Scheme (TGS) (not applicable for community</td><td>(includes initial inspection and review of the Traffic Guidance Scheme)   $479.00 N SLL1 | Schedule 27 s6 (2)(a)</td><td>$479.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Altered traffic conditions assessment    [continued]</td><td>Application fee for review of Traffic Guidance Scheme for community events     $192.00   N    -</td><td>$192.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application fee for review of Traffic Guidance Scheme for community events     $192.00   N    -</td><td>Application fee for Barge Landing permit     $476.00   Y  SLL1 | Schedule 7  (2)(a)</td><td>$476.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>LOCAL LAW PERMITS</td><td>Annual Hire of Parking Bay   Per bay   $775.00   N  SLL1 | Schedule 6  -</td><td>$775.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual Hire of Parking Bay   Per bay   $775.00   N  SLL1 | Schedule 6  -</td><td>Transfer of Permit     $200.00   N  SLL1 | Schedule 6  -</td><td>$200.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Transfer of Permit     $200.00   N  SLL1 | Schedule 6  -</td><td>Application for disturbance of human remains buried outside a cemetery     $505.00   N  SLL1 | Schedule 18  (2)(a)</td><td>$505.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for disturbance of human remains buried outside a cemetery     $505.00   N  SLL1 | Schedule 18  (2)(a)</td><td>Application for burial or disposal of human remains buried outside a cemetery     $638.00   N  SLL1 | Schedule 19  (2)(a)</td><td>$638.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application for burial or disposal of human remains buried outside a cemetery     $638.00   N  SLL1 | Schedule 19  (2)(a)</td><td>Transfer of Burial Rights for burial outside a cemetery     $77.00   N  SLL1 | Schedule 19  (2)(a)</td><td>$77.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Parking contrary to an official sign</td><td>Parking Permit Application     $52.00   N  SLL1 | Schedule 25  (2)(a)</td><td>$52.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Temporary Parking Permit for a Commercial Activity - Per 7 days or part thereof, up to</td><td>Residential Parking Permit (annual) (application fee additional)   Per bay   $806.00   N  SLL1 | Schedule 25  (2)(a)</td><td>$806.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>If permit has expired - fees as per new application.</td><td>approved building (no new permit issued)   $127.00 N PDR 2019 | s43 (2)(a),(e)</td><td>$127.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>permit (new permit required) - sewered and non-sewered sites (fixture/appliance/</td><td>Extend term of Permit for no more than 2 years     $127.00   N  PDR 2019 | s43  (2)(a)</td><td>$127.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>the use (excluding areas used for car parking and landscaping)  Activity fee plus fee/</td><td>Impact Fee - Cemetery   Base fee   $5,705.00   N  PA 2016 | s51(1)(b)(ii)  (2)(a)</td><td>$5,705.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Impact Fee - Cemetery   Base fee   $5,705.00   N  PA 2016 | s51(1)(b)(ii)  (2)(a)</td><td>Code Fee - Cemetery   Base fee   $4,226.00   N  PA 2016 | s51(1)(b)(ii)  (2)(a)</td><td>$4,226.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Impact Fee - Parking station</td><td>Impact Fee - Parking station   Per 50 spaces   $634.00   N  PA 2016 | s51(1)(b)(ii)  (2)(a)</td><td>$634.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Code Fee - Parking station</td><td>Code Fee - Parking station   Per 50 spaces   $634.00   N  PA 2016 | s51(1)(b)(ii)  (2)(a)</td><td>$634.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Approved permit parking</td><td>Pick up in designated parking bays in short term carpark     $4.15   Y    -</td><td>$4.15</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Branches, limbs and trunks to be no more than 1200mm in length or 400mm in diameter. Trunks may need to be split to comply. Palm trunks not able to be</td><td>permit or agreement   $305.00 N EPP (Water) 2009 | s31(1) -</td><td>$305.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Special water meter reading</td><td>readings are found to be within 5% of the amount meter should register   $101.50 N   -</td><td>$101.50</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Meter test (discretionary)</td><td>Refundable if meter faulty - i.e. reading over by more than 2%     $368.00   N    -</td><td>$368.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Water meter location (discretionary)</td><td>Water meter location (discretionary)     $140.00   Y    -</td><td>$140.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Replace damaged water meter</td><td>20 mm meter     $774.00   N    -</td><td>$774.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Replace damaged water meter boxes (discretionary)</td><td>Replace damaged water meter boxes (discretionary)     $211.00   N    -</td><td>$211.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Sale of water meters</td><td>Sale of 20mm Elster water meter - including Taggle device     $305.00   N    -</td><td>$305.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Bond - metered hydrant standpipe</td><td>Bond - metered hydrant standpipe     $2,176.00   N    -</td><td>$2,176.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Hire fee - metered hydrant standpipe</td><td>Initial fill - where not through meter     $823.00   N    -</td><td>$823.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Initial fill - where not through meter     $823.00   N    -</td><td>Permit fee to empty into Council sewer - under 36,400 litres     $182.00   N    -</td><td>$182.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Permit fee to empty into Council sewer - under 36,400 litres     $182.00   N    -</td><td>Permit fee to empty into Council sewer - over 36,400 litres     $301.00   N    -</td><td>$301.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Permit fee to empty into Council sewer - over 36,400 litres     $301.00   N    -</td><td>20mm standard water service connection (including water meter)     $1,863.00   N    -</td><td>$1,863.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>20mm standard water service connection (including water meter)     $1,863.00   N    -</td><td>20mm water meter install only (ready-tapped service exists)     $838.00   N    -</td><td>$838.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>20mm water meter install only (ready-tapped service exists)     $838.00   N    -</td><td>25mm standard water service connection (including water meter)     $2,339.00   N    -</td><td>$2,339.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>25mm standard water service connection (including water meter)     $2,339.00   N    -</td><td>25mm &quot;Duplex&quot; water service connection (including 2 water meters)     $2,864.00   N    -</td><td>$2,864.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>25mm &quot;Duplex&quot; water service connection (including 2 water meters)     $2,864.00   N    -</td><td>32mm standard water service connection (including water meter)     $3,525.00   N    -</td><td>$3,525.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>32mm standard water service connection (including water meter)     $3,525.00   N    -</td><td>40mm standard water service connection (including water meter)     $3,998.00   N    -</td><td>$3,998.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>40mm standard water service connection (including water meter)     $3,998.00   N    -</td><td>50mm standard water service connection (including water meter)     $4,822.00   N    -</td><td>$4,822.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Water allocation disconnection fee (permanent disconnection of meter outlet)     By quotation   N  WA 2000 | s146  -</td><td>Meter testing - bulk water connection (refunded if meter is faulty)     $125.00   N  WA 2000 | s146  -</td><td>$125.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>New meter - bulk water     By quotation   N  WA 2000 | s146  -</td><td>Special meter reading (bulk water meter) - Wide Bay Water Supply Scheme     $132.50   N  LG Reg 2012 | s155  (2)(a)</td><td>$132.50</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Special meter reading (bulk water meter) - Wide Bay Water Supply Scheme     $132.50   N  LG Reg 2012 | s155  (2)(a)</td><td>Special meter reading (bulk water meter) - Teddington Weir Water Supply Scheme     $198.50   N  LG Reg 2012 | s155  (2)(a)</td><td>$198.50</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Special meter reading (bulk water meter) - Teddington Weir Water Supply Scheme     $198.50   N  LG Reg 2012 | s155  (2)(a)</td><td>20mm standard water service connection (including water meter and RPZ)     $4,293.00   N    -</td><td>$4,293.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>20mm standard water service connection (including water meter and RPZ)     $4,293.00   N    -</td><td>25mm standard water service connection (including water meter and RPZ)     $4,794.00   N    -</td><td>$4,794.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>25mm standard water service connection (including water meter and RPZ)     $4,794.00   N    -</td><td>40mm standard water service connection (including water meter and RPZ)     $6,992.00   N    -</td><td>$6,992.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>40mm standard water service connection (including water meter and RPZ)     $6,992.00   N    -</td><td>50mm standard water service connection (including water meter and RPZ)     $7,860.00   N    -</td><td>$7,860.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="fees-library">Library Services — Fees (from Schedule 2025/26)</h2>
+  <table>
+    <thead><tr><th>Item</th><th>Line (context)</th><th>Price(s)</th><th>Source (text)</th></tr></thead>
+    <tbody>
+<tr><td>Copying/printing</td><td>Printing costs (black and white) per impression   Per page   $0.20   Y    -</td><td>$0.20</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Printing costs (black and white) per impression   Per page   $0.20   Y    -</td><td>Printing costs (colour) per impression   Per page   $1.00   Y    -</td><td>$1.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Printing costs (colour) per impression   Per page   $1.00   Y    -</td><td>Library bags     $3.00   Y    -</td><td>$3.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="fees-eventbins">Event Bins & Public Events — Fees (from Schedule 2025/26)</h2>
+  <table>
+    <thead><tr><th>Item</th><th>Line (context)</th><th>Price(s)</th><th>Source (text)</th></tr></thead>
+    <tbody>
+<tr><td colspan='4'>No explicit priced items detected (verify PDF).</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="fees-venues">Venues & Facility Hire — Fees (from Schedule 2025/26)</h2>
+  <table>
+    <thead><tr><th>Item</th><th>Line (context)</th><th>Price(s)</th><th>Source (text)</th></tr></thead>
+    <tbody>
+<tr><td>Community Hire Discount     20%   Y    -</td><td>Bond   Per hire   $500.00   N    -</td><td>$500.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Community Hire Discount     20%   Y    -</td><td>Performance fee - Auditorium (includes cleaning and standing charges) Per day $2200.00 plus 10%</td><td>$220</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Performance fee - Auditorium (includes cleaning and standing charges) Per day $2200.00 plus 10%</td><td>Performance fee - Foyer (includes cleaning and standing charges) Per day $1100 plus 10%</td><td>$110</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Performance fee - Foyer (includes cleaning and standing charges) Per day $1100 plus 10%</td><td>Performance fee - Federation Room (includes cleaning and standing charges) Per day $720 plus 10%</td><td>$720</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Performance fee - Foyer (includes cleaning and standing charges)</td><td>Whole of Venue  Per day (8 hours)   $2,500.00   Y    -</td><td>$2,500.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Whole of Venue  Per day (8 hours)   $2,500.00   Y    -</td><td>Federation Room - Full day hire  Per day (8 hours)   $450.00   Y    -</td><td>$450.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Federation Room - Full day hire  Per day (8 hours)   $450.00   Y    -</td><td>Federation Room - Half day hire  Per half day (4 hours)   $235.00   Y    -</td><td>$235.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Federation Room - Half day hire  Per half day (4 hours)   $235.00   Y    -</td><td>Staging   Per hire   $130.00   Y    -</td><td>$130.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Staging   Per hire   $130.00   Y    -</td><td>Dance floor   Per hire   $130.00   Y    -</td><td>$130.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Tablecloth hire   Per item   At cost   Y    -</td><td>Staff - Venue Supervisor or Techncial - first 3 hours or part there of  Per hour (3 hours)   $120.00   Y    -</td><td>$120.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Staff - Venue Supervisor or Techncial - first 3 hours or part there of  Per hour (3 hours)   $120.00   Y    -</td><td>Staff - Venue Supervisor or Technical - each additional hour   Per hour   $40.00   Y    -</td><td>$40.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Kitchen hire charges</td><td>Standard Kitchen Hire - each additional hour   Per hour   $40.00   Y    -</td><td>$40.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Standard Kitchen Hire - each additional hour   Per hour   $40.00   Y    -</td><td>Standard Kitchen Hire - half day  Per half day (4 hours)   $160.00   Y    -</td><td>$160.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Standard Kitchen Hire - half day  Per half day (4 hours)   $160.00   Y    -</td><td>Standard Kitchen Hire - full day  Per day (8 hours)   $320.00   Y    -</td><td>$320.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Standard Kitchen Hire - full day  Per day (8 hours)   $320.00   Y    -</td><td>Commercial Kitchen Hire (including cutlery &amp; crockery) - half day  Per half day (4 hours)   $220.00   Y    -</td><td>$220.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Commercial Kitchen Hire (including cutlery &amp; crockery) - half day  Per half day (4 hours)   $220.00   Y    -</td><td>Commercial Kitchen Hire (including cutlery &amp; crockery) - full day  Per day (8 hours)   $440.00   Y    -</td><td>$440.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Private / Commercial Hire</td><td>Half Day Hire (4 hours)   Per half day   $315.00   Y    -</td><td>$315.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Half Day Hire (4 hours)   Per half day   $315.00   Y    -</td><td>Full Day Hire (8 hours)   Per day   $630.00   Y    -</td><td>$630.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Community Organisation / Not for Profit Hire</td><td>Half Day Hire (4 hours)   Per half day   $157.50   Y    -</td><td>$157.50</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Half Day Hire (4 hours)   Per half day   $157.50   Y    -</td><td>Full Day Hire (8 hours)   Per day   $315.00   Y    -</td><td>$315.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Private / Commercial Hire</td><td>Half Day Hire (4 hours)   Per half day   $175.00   Y    -</td><td>$175.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Half Day Hire (4 hours)   Per half day   $175.00   Y    -</td><td>Full Day Hire (8 hours)   Per day   $350.00   Y    -</td><td>$350.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Community Organisation / Not for Profit Hire</td><td>Half Day Hire (4 hours)   Per half day   $87.50   Y    -</td><td>$87.50</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Half Day Hire (4 hours)   Per half day   $87.50   Y    -</td><td>Full Day Hire (8 hours)   Per day   $175.00   Y    -</td><td>$175.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Private / Commercial Hire</td><td>Half Day Hire (4 hours)   Per half day   $110.00   Y    -</td><td>$110.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Half Day Hire (4 hours)   Per half day   $110.00   Y    -</td><td>Full Day Hire (8 hours)   Per day   $220.00   Y    -</td><td>$220.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Community Organisation / Not for Profit Hire</td><td>Half Day Hire (4 hours)   Per half day   $55.00   Y    -</td><td>$55.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Half Day Hire (4 hours)   Per half day   $55.00   Y    -</td><td>Full Day Hire (8 hours)   Per day   $110.00   Y    -</td><td>$110.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Studio Hire    [continued]</td><td>Bond   Per hire   $500.00   N    -</td><td>$500.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>For fees relating to the hire of staff and teachers please refer to the &quot;Hire of Staff/ Teacher&quot; section</td><td>Private / Commercial - Pool Hire (Includes Entry)   Per Hour   $133.00   Y    -</td><td>$133.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Private / Commercial - Pool Hire (Includes Entry)   Per Hour   $133.00   Y    -</td><td>Not For Profit - Pool Hire (Includes Entry)   Per Hour   $114.50   Y    -</td><td>$114.50</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Not For Profit - Pool Hire (Includes Entry)   Per Hour   $114.50   Y    -</td><td>Private / Commercial - Lane Hire (Does Not Include Pool Entry)   Per Hour   $17.00   Y    -</td><td>$17.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Private / Commercial - Lane Hire (Does Not Include Pool Entry)   Per Hour   $17.00   Y    -</td><td>Not For Profit - Lane Hire (Does Not Include Pool Entry)   Per Hour   $15.00   Y    -</td><td>$15.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Available for private hire Wednesday, Thursday and Friday excluding public holidays and school holidays - from 9:00am to 6:00pm - minimum 2 hour hire</td><td>Private Hire Waterslides - Weekdays   Per Hour   $222.00   Y    -</td><td>$222.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Private Hire Waterslides - Weekdays   Per Hour   $222.00   Y    -</td><td>Private Hire Waterslides - Weekend   Per Hour   $245.00   Y    -</td><td>$245.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Available for private hire Wednesday, Thursday and Friday excluding public holidays and school holidays - from 9:00am to 6:00pm - minimum 2 hour hire.</td><td>Private Hire Aqua Course - Weekday   Per Hour   $222.00   Y    -</td><td>$222.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Private Hire Aqua Course - Weekday   Per Hour   $222.00   Y    -</td><td>Private Hire Aqua Course - Weekend   Per Hour   $245.00   Y    -</td><td>$245.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Playground Hire - Weekday (Non Exclusive Use)   Per Hour   No Charge   Y    -</td><td>Playground Hire - Weekday - Exclusive Use   Per Hour   $132.00   Y    -</td><td>$132.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Playground Hire - Weekday - Exclusive Use   Per Hour   $132.00   Y    -</td><td>Playground Hire - Weekend - Exclusive Use   Per Hour   $177.00   Y    -</td><td>$177.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Playground Hire - Weekend - Exclusive Use   Per Hour   $177.00   Y    -</td><td>Community Garden Plot Hire     $25.00   Y    -</td><td>$25.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Applications are assessed against relevant guidelines and leglislation - (each application requires additional payment for annual hire of bay).</td><td>Application (Excludes annual hire of bay)     $750.00   N  SLL1 | Schedule 6  -</td><td>$750.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Application (Excludes annual hire of bay)     $750.00   N  SLL1 | Schedule 6  -</td><td>Annual Parklet Renewal (including hire of bay)   Per bay   $806.00   N  SLL1 | Schedule 6  -</td><td>$806.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Annual Parklet Renewal (including hire of bay)   Per bay   $806.00   N  SLL1 | Schedule 6  -</td><td>Annual Hire of Parking Bay   Per bay   $775.00   N  SLL1 | Schedule 6  -</td><td>$775.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Hire of the Hinkler Meeting Room can be arranged prior to the meeting at the Executive Manager Economic Development &amp; Tourism or Airport Manager&#x27;s</td><td>Low Impact   Per hire   $250.00   N    -</td><td>$250.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Low Impact   Per hire   $250.00   N    -</td><td>Medium impact   Per hire   $500.00   N    -</td><td>$500.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Medium impact   Per hire   $500.00   N    -</td><td>High impact   Per hire   $1,000.00   N    -</td><td>$1,000.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>High impact   Per hire   $1,000.00   N    -</td><td>Low impact - events at Seafront Oval   Per hire   $2,500.00   N    -</td><td>$2,500.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Low impact - events at Seafront Oval   Per hire   $2,500.00   N    -</td><td>Medium impact - events at Seafront Oval   Per hire   $5,000.00   N    -</td><td>$5,000.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Medium impact - events at Seafront Oval   Per hire   $5,000.00   N    -</td><td>High impact - events at Seafront Oval   Per hire   $10,000.00   N    -</td><td>$10,000.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>High impact - events at Seafront Oval   Per hire   $10,000.00   N    -</td><td>Non Commercial   Per hire   $250.00   N    -</td><td>$250.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Non Commercial   Per hire   $250.00   N    -</td><td>Not-for-profit   Per hire   $250.00   N    -</td><td>$250.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Personal Mobility/Recreational Device (eScooter or similar) Hire Operations</td><td>Stable/yard/tack room cleaning bond   Per hire   $50.00   N    -</td><td>$50.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Stable/yard/tack room cleaning bond   Per hire   $50.00   N    -</td><td>Stable/yard/tack room cleaning fee   Per hire   $50.00   Y    -</td><td>$50.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Event Facilities Hire</td><td>Exhibition Hall  Per day or part thereof   $670.00   Y    -</td><td>$670.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Exhibition Hall  Per day or part thereof   $670.00   Y    -</td><td>Arts &amp; Crafts Pavillion (Hall 2)  Per day or part thereof   $187.00   Y    -</td><td>$187.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Arts &amp; Crafts Pavillion (Hall 2)  Per day or part thereof   $187.00   Y    -</td><td>Henry Bashford&#x27; Community Pavillion (Hall 3)  Per day or part thereof   $187.00   Y    -</td><td>$187.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Community Organisation / Not for profit applies to those hirers that are Clubs, Community Groups or Incorporated Associations where:</td><td>Driver Education - road network, where the venue remains open to other users  Per day or part thereof   $170.50   Y    -</td><td>$170.50</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Whole Use of Site - Whole of use site references where the entire grounds are hired exclusively. This includes camp sites, yards, stables and tack rooms.</td><td>Bond - Venue (to cover cleaning and/or damage)   Per entire venue   $1,102.00   N    -</td><td>$1,102.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Extra costs for services to be charged as per hire agreement may include electricity,</td><td>Exhibition Hall Chairs  per chair per hire   $5.00   Y    -</td><td>$5.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Exhibition Hall Chairs  per chair per hire   $5.00   Y    -</td><td>Spinifex Box and Cable   per box per hire   $60.00   Y    -</td><td>$60.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Spinifex Box and Cable   per box per hire   $60.00   Y    -</td><td>Toilet Trailer   per hire   $150.00   Y    -</td><td>$150.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Toilet Trailer   per hire   $150.00   Y    -</td><td>Cleaning hardware pack   per pack per hire   $30.00   Y    -</td><td>$30.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Cleaning hardware pack   per pack per hire   $30.00   Y    -</td><td>Additional 240l wheelie bin   per bin per hire   $18.00   Y    -</td><td>$18.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+<tr><td>Commercial use Lake Lenthall</td><td>Lake Lenthall Commercial Recreational Use - Application Fee     $210.00   N  WA 2000 | s570 (1)(d)  (2)(a)</td><td>$210.00</td><td>Fees &amp; Charges 2025/26 (PDF)</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="parking-rules">Parking — Rules & Processes (Resident-facing)</h2>
+  <table>
+    <thead><tr><th>Scenario</th><th>What to know</th><th>How to act</th><th>Timeframes</th><th>Source (text)</th></tr></thead>
+    <tbody>
+      <tr><td>Signed time limits (e.g., 1P/2P)</td><td>Observe signed limits; CBD short-stay zones apply</td><td>Check signs on arrival; move before limit ends</td><td>Immediate (as per sign)</td><td>frasercoast.qld.gov.au (parking info); Fees & Charges 2025/26</td></tr>
+      <tr><td>Parking infringement issued</td><td>Notice states offence, amount, due date, options</td><td>Pay or lodge written representation/elect court per notice</td><td>Typically 28 days</td><td>Fees & Charges 2025/26; State process</td></tr>
+      <tr><td>Accessible parking permits</td><td>Use designated bays with valid permit displayed</td><td>Apply via QLD scheme; display permit</td><td>External processing (TMR)</td><td>queensland.gov.au/disability/parking-permits</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="cemeteries-process">Cemeteries & Memorials — Booking & Interment Process</h2>
+  <table>
+    <thead><tr><th>Step</th><th>What the resident provides</th><th>Council action</th><th>Timeframe</th><th>Fees reference (text)</th></tr></thead>
+    <tbody>
+      <tr><td>1. Enquiry/hold</td><td>Preferred cemetery, date/time, burial/ashes, contacts</td><td>Confirm availability; provide fee schedule</td><td>Same/next business day</td><td>Fees & Charges 2025/26</td></tr>
+      <tr><td>2. Application</td><td>Form; proof of authority; plot choice</td><td>Assess; issue invoice</td><td>1–3 business days</td><td>Fees & Charges 2025/26</td></tr>
+      <tr><td>3. Payment</td><td>Pay interment/plot/monument</td><td>Receipt; confirm booking</td><td>Prior to interment</td><td>Fees & Charges 2025/26</td></tr>
+      <tr><td>4. Interment</td><td>Funeral director coordination</td><td>Prepare site; conduct interment</td><td>As scheduled</td><td>Fees & Charges 2025/26</td></tr>
+      <tr><td>5. Monument/inscription</td><td>Permit app & drawings</td><td>Assess permit</td><td>Up to 10 business days</td><td>Fees & Charges 2025/26</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="venues-process">Venues & Facility Hire — Booking Workflow</h2>
+  <table>
+    <thead><tr><th>Step</th><th>Resident/organiser provides</th><th>Council response</th><th>Timeframes</th><th>Fees/bonds (text)</th></tr></thead>
+    <tbody>
+      <tr><td>1. Availability check</td><td>Date/time, venue, event type, attendance</td><td>Confirm availability; quote hire + bond</td><td>Same/next business day</td><td>Fees & Charges 2025/26</td></tr>
+      <tr><td>2. Application & insurance</td><td>Booking form; Public Liability (often $20M)</td><td>Provisional booking; invoice</td><td>Within 3 business days</td><td>Fees & Charges 2025/26</td></tr>
+      <tr><td>3. Payment</td><td>Bond + hire</td><td>Confirmation; access details</td><td>Before event</td><td>Fees & Charges 2025/26</td></tr>
+      <tr><td>4. Event</td><td>Comply with conditions</td><td>On-call support per policy</td><td>Event day</td><td>Venue terms</td></tr>
+      <tr><td>5. Bond return</td><td>Bank details (if needed)</td><td>Inspect; refund bond</td><td>Within 10 business days</td><td>Fees & Charges 2025/26</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="animal-permits">Animal Management — Permits & Compliance</h2>
+  <table>
+    <thead><tr><th>Topic</th><th>Resident action</th><th>Evidence needed</th><th>Timeframes</th><th>Fees (text)</th></tr></thead>
+    <tbody>
+      <tr><td>New dog registration</td><td>Apply within 14 days of moving/ownership</td><td>Microchip no.; desexing proof</td><td>Issued on payment</td><td>Fees & Charges 2025/26</td></tr>
+      <tr><td>Annual renewal</td><td>Due by 31 Oct</td><td>Renewal notice</td><td>By due date</td><td>Fees & Charges 2025/26</td></tr>
+      <tr><td>Breeder/kennel permit</td><td>Apply; property inspection may occur</td><td>Site plan; management plan</td><td>Up to 20 business days</td><td>Fees & Charges 2025/26</td></tr>
+      <tr><td>Regulated dog</td><td>Comply with enclosure, signage, muzzling, microchip & registration</td><td>Evidence of compliance</td><td>By appointment</td><td>Fees & Charges 2025/26</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="library-services">Library Services — Membership, Loans, Printing</h2>
+  <table>
+    <thead><tr><th>Service</th><th>Details</th><th>Timeframes</th><th>Fees (text)</th></tr></thead>
+    <tbody>
+      <tr><td>Membership</td><td>Residents can join with ID/address</td><td>Issued on signup</td><td>Free</td></tr>
+      <tr><td>Loans</td><td>Books/DVDs; loan periods vary by item</td><td>Typically ~3 weeks</td><td>Overdue fees as per schedule</td></tr>
+      <tr><td>Public PCs/Wi‑Fi</td><td>Available at major branches</td><td>Immediate</td><td>Free; printing as per schedule</td></tr>
+      <tr><td>Printing/Copying</td><td>A4/A3, B&W/Colour</td><td>Immediate</td><td>Fees & Charges 2025/26</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="event-bins">Event Bins — Booking & Servicing</h2>
+  <table>
+    <thead><tr><th>Option</th><th>What you get</th><th>Lead time</th><th>Conditions</th><th>Fees (text)</th></tr></thead>
+    <tbody>
+      <tr><td>Self-serve bin hire</td><td>240L bins delivered (no servicing)</td><td>≥ 5 business days</td><td>Return/collection as arranged; charges if lost/damaged</td><td>Fees & Charges 2025/26</td></tr>
+      <tr><td>Serviced event bins</td><td>Bins + scheduled collection(s)</td><td>≥ 5 business days</td><td>Minimum service charge may apply</td><td>Fees & Charges 2025/26</td></tr>
+    </tbody>
+  </table>
+
+  <p class="provenance">This consolidated v6 contains all earlier sections (councillors, suburbs mapping, bins, facilities, libraries, pools, fees and processes) in one file for deployment.</p>
+
+  </body>
+</html>
